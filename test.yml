@@ -1,0 +1,6 @@
+---
+- hosts: backend
+  user: root
+  tasks:
+    - name: test only
+      shell: pwd

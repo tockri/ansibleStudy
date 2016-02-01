@@ -1,0 +1,7 @@
+---
+- hosts: backend
+  sudo: yes
+  vars:
+    mon_role: git
+  roles:
+    - misc/backlog_checker

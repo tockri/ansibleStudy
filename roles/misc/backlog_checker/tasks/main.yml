@@ -1,0 +1,4 @@
+---
+- name: install backlog_checker
+  copy: src=home/backlog_checker dest=/home/backlog_checker owner=root group=root
+  tags: backlog_checker_setup
